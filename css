@@ -1,0 +1,124 @@
+@media only screen and (max-device-width: 800px) {
+    /* .menu { width:600px; } */
+    }
+
+* {
+    margin: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    font-size: 100%;
+    background: white;
+  }
+  
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .cabecalho-imagem {
+    display: flex;
+    justify-content: flex-end;
+    height: 42px;
+  }
+  
+  .cabecalho-menu {
+    gap: 32px;
+  }
+  
+  .cabecalho-menu-item {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px
+  }
+  
+  .conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+  }
+  
+  .conteudo-principal {
+    font-family: 'Monteserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .conteudo-principal-escrito {
+    font-family: 'Monteserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: larger;
+  }
+  
+  
+  .conteudo-principal-imagem {
+    height: 550px;
+  }
+  
+  .conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+  }
+  
+  .conteudo-secundario-titulo {
+    border-top: 0.4px solid black;
+    padding-top: 20px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 10px;
+    align-self: flex-start;
+  }
+  
+  .conteudo-secundario-paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+  }
+
+  .conteudo-secundario-imagem {
+    height: 385px;
+    align-self: center;
+  }
+
+  .conteudo-terciario-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 102px;
+    font-size: 50px;
+    color: green;
+  }
+
+  .conteudo-terciario-paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+
+  .conteudo-terciario-imagem {
+    height: 400px;
+  }  
+  
+  .rodape {
+      padding: 15px;
+      border-top: 0.4px solid black;
+      font-family: 'Montserrat', sans-serif;
+      align-items: center;
+  }
+
+  .rodape-texto {
+    align-items: center;
+  }
